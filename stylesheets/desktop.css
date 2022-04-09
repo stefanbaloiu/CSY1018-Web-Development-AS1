@@ -1,19 +1,31 @@
 #navbar {
     display: flex;
     align-items: center;
-    padding: 0em;
+    justify-content: space-evenly;
     margin: 0em;
-    top: 0em;
-    height: 1em;
+    height: 3em;
 }
 
 .navelem{
-    margin-right: 4em;
-    margin-left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: background-color 1000ms ease;
 }
 
 .navelem a{
     text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+a:visited{
+    color: white;
 }
 
 body{
@@ -28,7 +40,7 @@ body{
 
 header {
     grid-area: header;
-    background-color: magenta;
+    background-color: var(--col1);
     text-align: right;
     display: flex;
     flex-direction: row;
@@ -40,20 +52,48 @@ header h1{
 
 nav {
     grid-area: nav;
-    background-color: aqua;
+    background-color: var(--col2);
 }
 
 main{
     grid-area: main;
-    background-color: bisque;
+    background-color: var(--col3);
 }
 
 aside{
     grid-area: aside;
-    background-color: blue;
+    background-color: var(--col4);
 }
 
 footer{
     grid-area: footer;
-    background-color: yellowgreen;
+    background-color: var(--col5);
+}
+
+#textarea{
+    width: 50em;
+    height: 25em;
+}
+
+#blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h2{
+    text-align: center;
+}
+
+.navelem:hover{
+    background-color: red;
+    height: 100%;
+}
+
+:root{
+    --col1: #BEE2E7;
+    --col2: #4F57AA;
+    --col3: #454857;
+    --col4: #72818B;
+    --col5: #8F002E;
 }

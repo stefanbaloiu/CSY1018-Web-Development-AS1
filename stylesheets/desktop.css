@@ -16,7 +16,6 @@
 }
 
 .navelem a{
-    text-decoration: none;
     display: inline-block;
     height: 100%;
     width: 100%;
@@ -24,9 +23,11 @@
     padding-top: 2em;
 }
 
-a:visited{
-    color: white;
+a{
+    text-decoration: none;
+    color: black;
 }
+
 
 body{
     display: grid;
@@ -79,10 +80,28 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+#blog div{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+#blog div h3{
+    margin: 0.5em;
+}
+
+#blog div p{
+    margin: 0.5em;
+    margin-top: 1em;
 }
 
 .h2{
     text-align: center;
+    border-bottom: 0.05em white dashed;
+    margin-top: 0.25em;
+    margin-bottom: 0em;
 }
 
 .navelem:hover{

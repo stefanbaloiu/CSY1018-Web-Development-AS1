@@ -1,0 +1,59 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 0em;
+    margin: 0em;
+    top: 0em;
+    height: 1em;
+}
+
+.navelem{
+    margin-right: 4em;
+    margin-left: 4em;
+}
+
+.navelem a{
+    text-decoration: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main aside"
+                         "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: magenta;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1{
+    margin-left: 1.75em;
+}
+
+nav {
+    grid-area: nav;
+    background-color: aqua;
+}
+
+main{
+    grid-area: main;
+    background-color: bisque;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: yellowgreen;
+}

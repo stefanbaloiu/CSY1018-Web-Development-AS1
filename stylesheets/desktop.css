@@ -116,3 +116,31 @@ footer{
     --col4: #72818B;
     --col5: #8F002E;
 }
+
+main article section img{
+    padding-bottom: 1em;
+    padding-left: 20em;
+    align-self: center;
+}
+
+main article section h2{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+main article section p{
+    text-align: center;
+    font-size: 50px;
+    color: #F07830;
+}
+
+footer{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    height: auto;
+    min-height: 45em;
+}

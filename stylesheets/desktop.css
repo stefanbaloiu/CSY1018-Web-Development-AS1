@@ -144,3 +144,8 @@ main{
     height: auto;
     min-height: 45em;
 }
+
+header a{
+    padding: none;
+    padding-top: 10px;
+}

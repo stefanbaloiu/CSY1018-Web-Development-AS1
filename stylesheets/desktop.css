@@ -95,6 +95,7 @@ footer{
 #blog div p{
     margin: 0.5em;
     margin-top: 1em;
+    color: bisque;
 }
 
 .h2{
@@ -117,20 +118,20 @@ footer{
     --col5: #8F002E;
 }
 
-main article section img{
+main img{
     padding-bottom: 1em;
     padding-left: 20em;
     align-self: center;
 }
 
-main article section h2{
+main h2{
     text-align: center;
     margin-top: 1.5em;
 }
 
-main article section p{
+main p{
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     color: #F07830;
 }
 
@@ -148,4 +149,18 @@ main{
 header a{
     padding: none;
     padding-top: 10px;
+}
+
+main article section img{
+    height: 450px;
+    margin-left: 2.8em;
+}
+
+main h3{
+    text-align: center;
+}
+
+main article section ul{
+    float: left;
+    color: lightslategrey;
 }

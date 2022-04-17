@@ -152,7 +152,7 @@ header a{
     padding-top: 10px;
 }
 
-main article section img{
+main article img{
     height: 450px;
     margin-left: 2.8em;
 }
@@ -161,7 +161,7 @@ main h3{
     text-align: center;
 }
 
-main article section ul{
+main article ul{
     float: left;
     color: lightslategrey;
 }
@@ -201,7 +201,12 @@ main form{
     padding-left: 5em;
 }
 
-main article section div{
+.ulist{
+    color: lightslategray;
+    list-style: none;
+}
+
+#msg{
     font-size: 16px;
     text-align: center;
     font-weight: bold;

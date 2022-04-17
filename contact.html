@@ -27,16 +27,14 @@
 
     <main>
         <article>
-            <section>
-                <h2>Contact me!</h2>
-                <p>If you would like to get in touch with me, you can do so by submitting this form! It does not look that good but I will make it look better soon. It's a promise!</p>
-                <p>P.S: If you could please make sure to mention your name in the form, I would very much appreciate it!</p>
-                <div>Type your message here:</div>
-            </section>
+            <h2>Contact me!</h2>
+            <p>If you would like to get in touch with me, you can do so by submitting this form! It does not look that good but I will make it look better soon. It's a promise!</p>
+            <p>P.S: If you could please make sure to mention your name in the form, I would very much appreciate it!</p>
+            <div id="msg">Type your message here:</div>
         </article>
 
-        <form action="mailto:stefanbaloiu@gmail.com?subject=Contact Form" method="POST" enctype="text/plain">
-            <textarea type="text" name="&#10" id="textarea"></textarea>
+        <form action="mailto:stefanbaloiu@gmail.com?subject=Contact_Form" method="POST" enctype="text/plain">
+            <textarea name="text" id="textarea"></textarea>
             <input type="submit" Value="Submit"/>
         </form>
 

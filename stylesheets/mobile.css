@@ -1,0 +1,197 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0em;
+    height: 3em;
+}
+
+.navelem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: background-color 1000ms ease;
+}
+
+.navelem a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: var(--col1);
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    grid-area: nav;
+    background-color: var(--col2);
+}
+
+main{
+    grid-area: main;
+    background-color: var(--col3);
+}
+
+aside{
+    grid-area: aside;
+    background-color: var(--col4);
+}
+
+footer{
+    grid-area: footer;
+    background-color: var(--col5);
+}
+
+#textarea{
+    width: 380px;
+    height: 25em;
+}
+
+#blog{
+    display: flex;
+    flex-direction: row;
+}
+
+#blog div h3{
+    margin: 0.5em;
+    text-align: center;
+}
+
+#blog div p{
+    margin: 0.5em;
+    margin-top: 1em;
+    color: bisque;
+    text-align: center;
+    font-size: 20px;
+}
+
+.h2{
+    text-align: center;
+    border-bottom: 0.25em white dashed;
+    margin-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+.navelem:hover{
+    background-color: red;
+    height: 100%;
+}
+
+:root{
+    --col1: #BEE2E7;
+    --col2: #4F57AA;
+    --col3: #454857;
+    --col4: #72818B;
+    --col5: #8F002E;
+}
+
+#mainimg{
+    padding-bottom: 1em;
+    float: center;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+main p{
+    text-align: center;
+    font-size: 25px;
+    color: #F07830;
+}
+
+footer{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    height: auto;
+    min-height: 45em;
+}
+
+header a{
+    padding: none;
+    padding-top: 10px;
+}
+
+main article section img{
+    height: 450px;
+    margin-left: 2.8em;
+}
+
+main h3{
+    text-align: center;
+}
+
+main article section ul{
+    float: left;
+    color: lightslategrey;
+}
+
+aside h2{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li img{
+    height: 50px;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#reportmain{
+    background-image: url("holy_grail_background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.portfolioimg{
+    padding-bottom: 1em;
+    align-self: center;
+    float: auto;
+    width: 300px;
+}
+
+main article section div{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-top: solid white;
+    padding-top: 2em;
+}
+

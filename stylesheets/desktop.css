@@ -170,10 +170,10 @@ aside h2{
     font-size: 20px;
 }
 
-aside ul li{
+aside ul{
     list-style: none;
 }
 
-aside img{
+aside ul li img{
     height: 50px;
 }
